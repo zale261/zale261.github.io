@@ -172,7 +172,7 @@ body {
 
 .profile-photo {
   margin-left: 40px;
-  margin-top: 32px;
+  margin-top: 16px;
   height: 224px;
   width: 224px;
   border: solid rgb(0, 100, 100) 5px;
@@ -200,6 +200,12 @@ th {
   padding: 25px;
   color: white;
   text-align: center;
+}
+
+.contact td,
+th {
+  display: table-cell;
+  vertical-align: top;
 }
 
 #about,
